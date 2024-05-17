@@ -1,0 +1,51 @@
+{
+  "name": "mymanu",
+  "version": "0.0.1",
+  "description": "Quasar app for MyManu Event Management.",
+  "productName": "MyManu-App",
+  "author": "alamincmt",
+  "private": true,
+  "scripts": {
+    "lint": "eslint --ext .js,.vue ./",
+    "format": "prettier --write \"**/*.{js,vue,scss,html,md,json}\" --ignore-path .gitignore",
+    "test": "echo \"No test specified\" && exit 0",
+    "dev": "quasar dev",
+    "build": "quasar build"
+  },
+  "dependencies": {
+    "@capacitor-firebase/authentication": "^6.0.0",
+    "@capacitor/android": "^6.0.0",
+    "@capacitor/core": "^6.0.0",
+    "@capacitor/filesystem": "^6.0.0",
+    "@capacitor/ios": "^6.0.0",
+    "@capacitor/share": "^6.0.0",
+    "@proteansoftware/capacitor-start-navigation": "^5.0.0",
+    "@quasar/extras": "^1.16.4",
+    "firebase": "^10.11.0",
+    "html-to-image": "^1.11.11",
+    "html2canvas": "^1.4.1",
+    "jspdf": "^2.5.1",
+    "pinia": "^2.0.11",
+    "qrcode.vue": "^3.4.1",
+    "quasar": "^2.16.0",
+    "vue": "^3.4.18",
+    "vue-router": "^4.0.12"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "^6.0.0",
+    "@quasar/app-vite": "^1.9.0",
+    "@typescript-eslint/eslint-plugin": "^7.9.0",
+    "autoprefixer": "^10.4.2",
+    "eslint": "^8.57.0",
+    "eslint-config-prettier": "^8.1.0",
+    "eslint-plugin-vue": "^9.0.0",
+    "postcss": "^8.4.14",
+    "prettier": "^2.5.1",
+    "vite-plugin-checker": "^0.6.4"
+  },
+  "engines": {
+    "node": "^20 || ^18 || ^16",
+    "npm": ">= 6.13.4",
+    "yarn": ">= 1.21.1"
+  }
+}

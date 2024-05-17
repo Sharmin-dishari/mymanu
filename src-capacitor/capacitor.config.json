@@ -1,0 +1,16 @@
+{
+  "appId": "com.mymanu.event",
+  "appName": "MyManu-App",
+  "webDir": "www",
+  "server": {
+    "androidScheme": "https"
+  },
+  "plugins": {
+    "FirebaseAuthentication": {
+      "skipNativeAuth": false,
+      "providers": [
+        "google.com"
+      ]
+    }
+  }
+}
